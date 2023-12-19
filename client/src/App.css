@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.lobby-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.lobby-form {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  max-width: 400px;
+  width: 100%;
+}
+
+.lobby-form h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.lobby-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.lobby-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.lobby-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.lobby-form button:hover {
+  background-color: #45a049;
+}
+
+
+.room-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.room-header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.room-status {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.video-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+}
+
+.video-box h1 {
+  text-align: center;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.react-player {
+  margin: auto;
+}
+
+.room-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.room-button:hover {
+  background-color: #45a049;
+}
